@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>pig game</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+</head>
+<body>
+  <div class="wrapper clearfix">
+      <div class="player-0-panel active">
+          <div id="name-0" class="player-name">
+              Player 1
+          </div>
+          <div id="score-0" class="player-score">
+              43
+          </div>
+          <div class="player-current-box">
+              <div class="player-current-label">Current</div>
+              <div id="current-0" class="player-current-score">11</div>
+          </div>
+
+      </div>
+      <div class="player-1-panel">
+          <div id="name-1" class="player-name">Player 2</div>
+          <div id="score-1" class="player-score">
+            72
+        </div>
+        <div class="player-current-box">
+            <div class="player-current-label">Current</div>
+            <div id="current-1" class="player-current-score">0</div>
+
+           
+        </div>
+        <br>
+        
+      </div>
+
+      <button class="btn-new"><i class="material-icons"> add_circle_outline</i>New Game</button>
+      <button class="btn-roll"><i class="material-icons">autorenew</i>Roll Dice</button>
+      <button class="btn-hold"><i class="material-icons"> play_for_work</i>Hold</button>
+      <input type="text" class="final-score" placeholder="Final Score">
+      <img src="image/dice.jpg" alt="dice" class="dice" >
+     
+  </div>  
+  <script src="app.js"></script>
+</body>
+</html>
